@@ -15,8 +15,6 @@ private:
     double performOperation(double a, double b, const std::string& op) const;
     
 public:
-    RPN();
-    ~RPN();
     double calculate(const std::string& expression);
     class InvalidExpressionException : public std::exception {
     public:
